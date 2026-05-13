@@ -71,6 +71,7 @@ input[type="text"] {
 }
 input[type="text"] {
   outline: none;
+  width: 100%;
 }
 ::placeholder {
   color: var(--color-muted);
@@ -114,8 +115,73 @@ nav > button {
 
 main {
   width: 500px;
-  height: 80px;
   background-color: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: 10px;
+}
+
+li {
+  width: 500px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 10px;
+}
+.checkbox-custom {
+  width: 30px;
+  height: 30px;
+  display: block;
+  background-color: var(--color-surface);
+  border-radius: 50px;
+  border: 1px solid var(--color-border);
+}
+input[type="checkbox"] {
+  display: none;
+}
+
+li > div {
+  display: flex;
+  flex-direction: column;
+}
+li > div > span {
+  font-size: 14px;
+  margin-bottom: 3px;
+}
+
+li > div > div > span {
+  font-size: 12px;
+}
+ul {
+  list-style: none;
+}
+.categoriaLista {
+  background-color: #0c2340;
+  color: #5b9bd5;
+  border-radius: 10px;
+  padding: 0px 4px;
+}
+.pontoPrioridade {
+  height: 8px;
+  width: 8px;
+  display: inline-block;
+  border-radius: 50px;
+  background-color: var(--priority-high);
+}
+.statusLista {
+  color: var(--priority-high);
+}
+
+footer {
+  display: flex;
+  width: 500px;
+  justify-content: right;
+  margin-top: 10px;
+}
+
+footer > button {
+  background-color: var(--color-bg);
+  border: none;
+  color: var(--color-muted);
+  text-decoration: underline;
 }
