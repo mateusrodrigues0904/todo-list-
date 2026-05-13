@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+:root {
+  --color-bg: #f9f8f6;
+  --color-surface: #ffffff;
+  --color-border: #e8e6e1;
+  --color-text: #1a1a1a;
+  --color-muted: #9e9b94;
+  --color-accent: #3d5afe;
+  --color-done: #b0adad;
+  --priority-high: #e53935;
+  --priority-medium: #fb8c00;
+  --priority-low: #43a047;
+}
+* {
+  font-family: "DM sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
