@@ -13,11 +13,21 @@
     </header>
     <section>
       <form>
-        <input type="text" name="tituloTarefas" id="idTituloTarefa" />
-        <button type="button">Categoria</button>
-        <button type="button">Prioridade</button>
-        <button type="button">Data</button>
-        <button type="submit">Adicionar</button>
+        <input
+          type="text"
+          name="tituloTarefas"
+          id="idTituloTarefa"
+          class="classTituloTarefa"
+          placeholder="Nova tarefa.."
+        />
+        <div class="classButoesForm">
+          <div>
+            <button type="button">Categoria</button>
+            <button type="button">Prioridade</button>
+            <button type="button">Data</button>
+          </div>
+          <button type="submit">Adicionar</button>
+        </div>
       </form>
       <nav>
         <button type="button">Todas</button>
@@ -41,4 +51,3 @@
     <script src="app.js"></script>
   </body>
 </html>
-                    
